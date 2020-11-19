@@ -1210,6 +1210,8 @@ body:not(.fp-viewing-firstPage) .btn-nav,
     height: 67px;
 }
 .slider-sertificats__item {
+    width: 200px;
+    margin: 0 auto;
     height: 265px;
 }
 .footer__list li a {
