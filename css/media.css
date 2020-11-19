@@ -1053,8 +1053,8 @@ body:not(.fp-viewing-firstPage) .btn-nav,
     margin-top: 2px;
 }
 .billbord {
-    padding-top: 120px;
-    padding-bottom: 50px;
+    padding-top: 135px;
+    padding-bottom: 65px;
     min-height: auto;
 }
 .billbord .title-big {
@@ -1082,6 +1082,7 @@ body:not(.fp-viewing-firstPage) .btn-nav,
     font-size: 19px;
 }
 .tabs {
+    padding: 0 15px;
     margin: 0 -15px;
 }
 .tabs li a {
@@ -1235,6 +1236,15 @@ body:not(.fp-viewing-firstPage) .btn-nav,
 }
 .modal-wrap .block-form .checkbox-wrap .checkbox {
     white-space: normal;
+}
+.about .title-section {
+    text-align: center;
+}
+.about {
+    padding-top: 0;
+}
+.billbord .btn-main {
+    margin-top: 50px;
 }
 }
 
