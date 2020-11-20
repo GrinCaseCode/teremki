@@ -170,6 +170,9 @@ p {
 	transition: all 0.3s;
 	vertical-align: middle;
 }
+.btn-nav:hover .sandwich {
+	    background-color: #4f1712;
+}
 .sandwich span {
 	display: inline-block;
 
@@ -189,6 +192,7 @@ p {
 	cursor: pointer;
 	border-radius: 50%;
 	margin-right: 19px;
+	transition: all 0.3s;
 
 }
 .sw-topper {
@@ -1688,4 +1692,93 @@ text-align: center;
 }
 .modal-wrap .block-form .checkbox-wrap .checkbox {
     white-space: nowrap;
+}
+.modal-apartment-wrap {
+	width: 1170px;
+	max-width: 100%;
+	font-size: 14px;
+	line-height: 21px;
+	padding: 53px 30px;
+	margin: 0 auto;
+	color: #000;
+background-color: #f6f4f2;
+}
+.modal-apartment-wrap__image {
+	height: 380px;
+	padding: 20px;
+	max-width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+}
+.modal-apartment-wrap__image img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+.col_lr {
+	padding: 0;
+}
+.name-apartament {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+}
+.title-apartament {
+	font-size: 16px;
+	padding-bottom: 5px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.value-apartament {
+	font-size: 14px;
+	line-height: 21px;
+}
+.value-apartament strong {
+	font-size: 24px;
+}
+.value-apartament sup {
+	font-size: 8px;
+}
+.char-apartament {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.char-apartament .title-apartament {
+	width: 120px;
+	padding-bottom: 0;
+}
+.conditions-apartament {
+	float: right;
+	min-height: 100%;
+	padding: 28px 30px;
+	max-width: 275px;	
+	background-color: #c7daad;
+}
+.conditions-apartament__title {
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 27px;
+	font-weight: 600;
+}
+.conditions-apartament p strong {
+font-weight: 600;
+}
+.conditions-apartament p {
+	margin-bottom: 38px;
+}
+.conditions-apartament p:last-child {
+	margin-bottom: 0;
+}
+.modal-apartment-wrap .col_lr {
+	display: flex;
+	flex-direction: column;
+}
+.modal-apartment-wrap .btn-main {
+	margin-top: auto;
+	padding: 0 40px;
 }
