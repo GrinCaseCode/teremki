@@ -1,11 +1,15 @@
 
-	$('#fullpage').fullpage({
-	anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+
+$('#fullpage').fullpage({
+	anchors: ['section-billbord', 'section-about-top', 'section-about', 'section-layouts', 'section-get-free', 'section-locations', 'section-steps', 'section-buy', 'section-process', 'section-sertificats', 'section-instagram', 'section-footer'],
 	responsiveHeight: 600,
 	controlArrows: true,
 	responsiveWidth: 1200,
-	menu: '#menu'
+	scrollingSpeed: 1000,
+	menu: '.menu_list',
 });
+
+	
 
 	$('.btn_top').click(function(event) {
 		event.preventDefault();
@@ -15,21 +19,25 @@
 
 $(document).ready(function() {
 
+
 	//кнопка sandwich
-	$(".btn_nav").click(function() {
+	$(".btn-nav").click(function() {
 		$(".sandwich").toggleClass("active");
-		if ($(".menu").is(":hidden")) {
-			$(".menu").slideDown(600);
+		$(this).toggleClass("active");
+		if ($(".header-menu").is(":hidden")) {
+			$(".header-menu").fadeIn(200);
 		} else {
-			$(".menu").slideUp(600);
+			$(".header-menu").fadeOut(200);
 		}
 		
 	});
 
 	$(".menu a").click(function() {
-			$(".menu").slideUp(600);
-			$(".sandwich").removeClass("active");
-		});
+		$(".header-menu").fadeOut(200);
+		$(".sandwich").removeClass("active");
+		$(".btn-nav").removeClass("active");
+	});
+
 
 	$(".pixelcompare").twentytwenty({
 		

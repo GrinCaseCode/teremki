@@ -242,13 +242,13 @@ p {
 	width: 18px;
 	transform: rotate(-45deg);
 }
-body:not(.fp-viewing-firstPage) .btn-nav {
+body:not(.fp-viewing-section-billbord) .btn-nav {
 	top: 10px;
 }
-body:not(.fp-viewing-firstPage) .btn-nav .btn-nav__text {
+body:not(.fp-viewing-section-billbord) .btn-nav .btn-nav__text {
 	display: none;
 }
-body:not(.fp-viewing-firstPage) .container_big {
+body:not(.fp-viewing-section-billbord) .container_big {
 	    max-width: 1510px;
 }
 .container_big {
@@ -1737,4 +1737,38 @@ font-weight: 600;
 .modal-apartment-wrap .btn-main {
 	margin-top: auto;
 	padding: 0 40px;
+}
+.header-menu {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 59;
+	width: 100%;
+	background-color: #f8f8f8;
+	color: #333333;
+	display: none;
+}
+.menu ul {
+	margin-top: 22px;
+	border-top: 1px #ccc solid;
+	padding: 35px 0;
+	display: flex;
+	max-width: 95%;
+	max-width: calc(100% - 64px);
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul li a {
+	color: #333333;
+font-size: 16px;
+font-weight: 600;
+}
+.header-menu .phone-main {
+	color: #333333;
+}
+.btn-nav.active .btn-nav__text {
+color: #333333;
+}
+body:not(.fp-viewing-section-billbord) .btn-nav.active {
+	top: 40px;
 }
