@@ -21,8 +21,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.7" />
-	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+	<link rel="stylesheet" href="css/main.css?ver=1.8" />
+	<link rel="stylesheet" href="css/media.css?ver=1.8" />
 </head>
 <body>
 
@@ -37,11 +37,47 @@
 				</span>
 				<span class="btn-nav__text">Меню</span>
 			</span>
+			<div class="header header-menu">
+				<div class="container">
+					<div class="header__line">
+						<div class="btn-nav-fake"></div>
+						<div class="header__info header__info_location"><strong>Салон продаж:</strong> г. Симферополь, ул. Казанская, 5 </div>
+						<a href="#" class="logo">
+							<img src="img/logo2.svg" alt="alt">
+						</a>
+						<div class="header__info header__info_time"><strong>Режим работы:</strong> ежедневно с 9:00 до 18:00</div>
+						<a href="tel:+79782730004" class="phone-main">+7 978 273 000 4</a>
+						<div class="header__social">
+							<ul class="links-social">
+								<li class="links-social__phone"><a href="#callback" class="fancybox"><img src="img/phone-alt.svg" alt="alt"></a></li>
+								<li class="links-social__whattsapp"><a href="#"><img src="img/ic_soc2.svg" alt="alt"></a></li>
+								<li class="links-social__viber"><a href="#"><img src="img/ic_soc3.svg" alt="alt"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<div class="container container_big">
+						<ul id="menu">
+							<li><a href="#section-billbord" data-menuanchor="section-billbord">О комплексе</a></li>
+							<li><a href="#section-about-top" data-menuanchor="section-about-top">Преимущества</a></li>
+							<li><a href="#section-layouts" data-menuanchor="section-layouts">Планировки</a></li>
+							<li><a href="#section-locations" data-menuanchor="section-locations">Инфраструктура</a></li>
+							<li><a href="#section-steps" data-menuanchor="section-steps">Как купить</a></li>
+							<li><a href="#section-buy" data-menuanchor="section-buy">Условия приобретения</a></li>
+							<li><a href="#section-process" data-menuanchor="section-process">Ход строительства</a></li>
+							<li><a href="#section-sertificats" data-menuanchor="section-sertificats">Свидетельства</a></li>
+							<li><a href="#section-footer" data-menuanchor="section-footer">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 
 		<div id="fullpage">
 
-			<div class="billbord section section_simple" id="section_1">
+			<div class="billbord section section_simple" id="sect-billbord">
 
 				<div class="billbord__wrap">
 					<header class="header">
@@ -97,7 +133,7 @@
 				</div>
 			</div>
 
-			<div class="about-top section">
+			<div class="about-top section" id="sect-about-top">
 				<div class="container">
 					<div class="row row_about">
 						<div class="col-lg-4 col-md-6">
@@ -140,7 +176,7 @@
 				</div>
 			</div>
 
-			<div class="about section">
+			<div class="about section" id="sect-about">
 				<div class="container">
 					<div class="title-section">Жилой комплекс <strong>«Теремки»</strong></div>
 					<div class="row row_complex">
@@ -237,7 +273,7 @@
 				</div>
 			</div>
 
-			<div class="layouts section">
+			<div class="layouts section" id="sect-layouts">
 				<div class="container">
 					<div class="title-section">Квартиры представлены в 6 уникальных и комфортных планировках</div>
 					<div class="row row_layouts">
@@ -365,7 +401,7 @@
 				</div>
 			</div>
 
-			<div class="get-free section">
+			<div class="get-free section" id="sect-get-free">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6 col-lg-8 offset-xl-1">
@@ -411,7 +447,7 @@
 				</div>
 			</div>
 
-			<div class="locations section">
+			<div class="locations section" id="sect-locations">
 				<div class="container">
 					<div class="title-section"><strong>ЖК «Теремки» имеет очень удобную инфраструктуру:</strong> в пригороде и уединении, но в быстром доступе к трассе «Таврида» и всем направлениям Крымского плуострова</div>
 				</div>
@@ -499,7 +535,7 @@
 				</div>
 			</div>
 
-			<div class="steps section">
+			<div class="steps section" id="sect-steps">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-9">
@@ -552,7 +588,7 @@
 				</div>
 			</div>
 
-			<div class="buy section">
+			<div class="buy section" id="sect-buy">
 				<div class="container">
 					<div class="title-section">Покупайте квартиру в новом доме <strong>со скидкой 2 %</strong> при полной оплате</div>
 					<div class="row">
@@ -618,7 +654,7 @@
 				</div>
 			</div>
 
-			<div class="process section">
+			<div class="process section" id="sect-process">
 				<div class="container">
 					<div class="title-section">Наблюдайте за ходом строительства <strong>своего дома</strong></div>
 					<ul class="slider-process-nav">
@@ -879,7 +915,7 @@
 				</div>
 			</div>
 
-			<div class="sertificats section">
+			<div class="sertificats section" id="sect-sertificats">
 				<div class="container">
 					<div class="title-section">О застройщике ПЖСК <strong>«Теремки»</strong></div>
 					<div class="row">
@@ -922,7 +958,7 @@
 				</div>
 			</div>
 
-			<div class="instagram section">
+			<div class="instagram section" id="sect-instagram">
 				<div class="container">
 					<div class="title-section">Мы в <a href="#">instagram</a></div>
 					<div class="row row_insta">
@@ -983,7 +1019,7 @@
 				</div>
 			</div>
 
-			<footer class="footer section">
+			<footer class="footer section"  id="sect-footer">
 				<div class="map-wrapper">
 					<div class="container">
 						<div class="map-block">
@@ -1021,18 +1057,18 @@
 							</div>
 							<div class="col-lg-4 col_pl col-md-4 col-6">
 								<ul class="footer__list">
-									<li><a href="#">Жилой комплекс</a></li>
-									<li><a href="#">Планировки</a></li>
-									<li><a href="#">Инфраструктура</a></li>
-									<li><a href="#">Условия приобретения</a></li>
+									<li><a href="#section-billbord" data-menuanchor="section-billbord">Жилой комплекс</a></li>
+									<li><a href="#section-layouts" data-menuanchor="section-layouts">Планировки</a></li>
+									<li><a href="#section-locations" data-menuanchor="section-locations">Инфраструктура</a></li>
+									<li><a href="#section-buy" data-menuanchor="section-buy">Условия приобретения</a></li>
 								</ul>
 							</div>
 							<div class="col-lg-3 col-md-4 col-6">
 								<ul class="footer__list">
-									<li><a href="#">Как купить квартиру</a></li>
-									<li><a href="#">Ход строительства</a></li>
-									<li><a href="#">Документация</a></li>
-									<li><a href="#">Контакты</a></li>
+									<li><a href="#section-steps" data-menuanchor="section-steps">Как купить квартиру</a></li>
+									<li><a href="#section-process" data-menuanchor="section-process">Ход строительства</a></li>
+									<li><a href="#section-sertificats" data-menuanchor="section-sertificats">Документация</a></li>
+									<li><a href="#section-footer" data-menuanchor="section-footer">Контакты</a></li>
 								</ul>
 							</div>
 						</div>
@@ -1140,7 +1176,7 @@
 <script src="libs/twentytwenty-master/js/jquery.twentytwenty.js"></script>
 <script src="libs/responsive-flip-countdown/jquery.flipper-responsive.js"></script>
 <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
-<script src="js/common.js?ver=1.7"></script>
+<script src="js/common.js?ver=1.8"></script>
 
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
